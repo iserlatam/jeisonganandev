@@ -5,4 +5,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "users#index"
+
+  get "/microposts/", to: "microposts#index"
+
 end
